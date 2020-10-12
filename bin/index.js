@@ -7,7 +7,8 @@ const pkg = require('../package.json')
 const notifier = updateNotifier({
   pkg,
   // updateCheckInterval: 0,
-  updateCheckInterval: 1000 * 60 * 60 * 24 * 7, // 1 week
+  // updateCheckInterval: 1000 * 60 * 60 * 24 * 7, // 1 week
+  updateCheckInterval: 1000 * 60 * 60 * 24, // 1 day
   shouldNotifyInNpmScript: true,
 });
 
@@ -26,7 +27,7 @@ require('yargs')
   .commandDir('../lib/commands')
   .scriptName('')
   .showHelpOnFail(true)
-  .version('version', 'Show version number', '@hyas/cli v0.2.0')
+  .version('version', 'Show version number', '@hyas/cli v0.3.0')
   .alias('version', 'v')
   .alias('help', 'h')
   .epilogue('Run ' + chalk.cyan('hyas <command> --help') + ' for detailed usage of given command.')
