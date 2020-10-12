@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2020-10-12
+
+### Added
+- create command: remove `/.dependabot`, `/.github`, and `/.travis.yml`
+- [update-notifier](https://github.com/yeoman/update-notifier)
+
+### Changed
+- version command: output
+- create command: after install instructions
+
 ## [0.1.1] - 2020-04-28
 ### Changed
 - chalk from `blue` to `cyan`
@@ -14,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/h-enk/hyas-cli/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/h-enk/hyas-cli/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/h-enk/hyas-cli/releases/tag/v0.2.0
 [0.1.1]: https://github.com/h-enk/hyas-cli/releases/tag/v0.1.1
 [0.1.0]: https://github.com/h-enk/hyas-cli/releases/tag/v0.1.0
