@@ -1,4 +1,4 @@
-# @h-enk/hyas-cli
+# @hyas/cli
 [![npm](https://img.shields.io/npm/v/@hyas/cli.svg?style=flat-square)](https://www.npmjs.com/package/@hyas/cli)
 
 Hyas command line tool.
