@@ -5,31 +5,69 @@ Hyas command line tool.
 
 ## Installation
 
-Install Hyas CLI globally:
+Install the Hyas CLI globally:
 
 ```bash
 npm install -g @hyas/cli
 ```
 
+## npx
+Or use [npx](https://nodejs.dev/learn/the-npx-nodejs-package-runner):
+
+```bash
+npx @hyas/cli <command> [options]
+```
+
+
 ## Commands
 
-Create new website:
+
+### Create
+
+Create a new Hyas project:
 
 ```bash
 hyas create [dir]
 ```
 
-Start development server:
+### Start
+Start local development server:
 
 ```bash
 hyas start
 ```
 
-Oher commands:
+### Build
+Build production website:
 
 ```bash
-hyas help
+hyas build
+```
+
+### Clean
+Delete temporary directories:
+
+```bash
+hyas clean
+```
+
+## Options
+
+### -h, --help
+
+Show help.
+
+### -v, --version
+
+Show version number.
+
+## Update
+You'll get notified when an update is available:
+
+```bash
+Update available: 0.3.1
+Run npm install -g @hyas/cli to update
 ```
 
 ## Documentation
-- [Hyas](https://gethyas.com/)
+- [Hyas CLI](https://gethyas.com/docs/prologue/hyas-cli/)
