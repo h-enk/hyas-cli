@@ -61,13 +61,5 @@ Show help.
 
 Show version number.
 
-## Update
-You'll get notified when an update is available:
-
-```bash
-Update available: 0.3.1
-Run npm install -g @hyas/cli to update
-```
-
 ## Documentation
 - [Hyas CLI](https://gethyas.com/docs/prologue/hyas-cli/)
