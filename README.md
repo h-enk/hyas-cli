@@ -1,5 +1,7 @@
 # @hyas/cli
-[![npm](https://img.shields.io/npm/v/@hyas/cli.svg?style=flat-square)](https://www.npmjs.com/package/@hyas/cli)
+[![npm](https://img.shields.io/npm/v/@hyas/cli.svg)](https://www.npmjs.com/package/@hyas/cli)
+[![CodeQL](https://github.com/h-enk/hyas-cli/workflows/CodeQL/badge.svg)](https://github.com/h-enk/hyas-cli/actions?query=workflow%3ACodeQL)
+[![Node.js Package](https://github.com/h-enk/hyas-cli/workflows/Node.js%20Package/badge.svg)](https://github.com/h-enk/hyas-cli/actions?query=workflow%3A%22Node.js+Package%22)
 
 Hyas command line tool.
 
