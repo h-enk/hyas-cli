@@ -4,7 +4,7 @@
   "version": "0.3.2",
   "main": "bin/index.js",
   "bin": {
-    "hyas": "./bin/index.js"
+    "hyas": "bin/index.js"
   },
   "repository": "https://github.com/h-enk/hyas-cli",
   "homepage": "https://github.com/h-enk/hyas-cli#readme",
@@ -30,13 +30,13 @@
     "test": "eslint bin/ lib/commands/"
   },
   "devDependencies": {
-    "eslint": "^7.11"
+    "eslint": "^7.17"
   },
   "dependencies": {
     "chalk": "^4.1",
     "shelljs": "^0.8",
     "update-notifier": "^5.0",
-    "yargs": "^16.0"
+    "yargs": "^16.2"
   },
   "engines": {
     "node": ">=14"
