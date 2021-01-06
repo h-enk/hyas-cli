@@ -27,10 +27,12 @@
     "access": "public"
   },
   "scripts": {
+    "release": "standard-version",
     "test": "eslint bin/ lib/commands/"
   },
   "devDependencies": {
-    "eslint": "^7.17"
+    "eslint": "^7.17",
+    "standard-version": "^9.1.0"
   },
   "dependencies": {
     "chalk": "^4.1",
