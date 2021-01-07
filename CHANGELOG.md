@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.6](https://github.com/h-enk/hyas-cli/compare/v0.3.5...v0.3.6) (2021-01-07)
+
+
+### Bug Fixes
+
+* add codeql workflow ([154bc5e](https://github.com/h-enk/hyas-cli/commit/154bc5e3bf258b1283494e376b2ebec43d0262a0))
+
 ### [0.3.5](https://github.com/h-enk/hyas-cli/compare/v0.3.4...v0.3.5) (2021-01-07)
 
 ### [0.3.4](https://github.com/h-enk/hyas-cli/compare/v0.3.3...v0.3.4) (2021-01-07)
