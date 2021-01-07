@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.4](https://github.com/h-enk/hyas-cli/compare/v0.3.3...v0.3.4) (2021-01-07)
+
+
+### Features
+
+* update npm publish workflow ([ef301bf](https://github.com/h-enk/hyas-cli/commit/ef301bf7a3b12fb3e0e69be4fa755a8bbd127f96))
+
 ### [0.3.3](https://github.com/h-enk/hyas-cli/compare/v0.3.2...v0.3.3) (2021-01-07)
 
 
