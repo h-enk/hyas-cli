@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.3](https://github.com/h-enk/hyas-cli/compare/v0.3.2...v0.3.3) (2021-01-07)
+
+
+### Features
+
+* add standard-version ([cac7d87](https://github.com/h-enk/hyas-cli/commit/cac7d879b04f31d16d5b031b1be83bf0c35f36d5))
+* add theme option to create command ([6f6c367](https://github.com/h-enk/hyas-cli/commit/6f6c3678e945029e7ed1d2dbea28a0390cba3d29))
+* update create command ([68a6351](https://github.com/h-enk/hyas-cli/commit/68a6351b29b2bc811980e70c08a3332e363b08e0))
+* update version command ([5e3ad0f](https://github.com/h-enk/hyas-cli/commit/5e3ad0f0fddaff25218affd1cbffb467f784a60e))
+
+
+### Read Me
+
+* add workflow status badges ([ba89bdd](https://github.com/h-enk/hyas-cli/commit/ba89bdde7f79e0253ce06e669e8c329523de7d56))
+* update create command ([4956b5f](https://github.com/h-enk/hyas-cli/commit/4956b5fd12fffd62788a3314effc938273d8a4a3))
+
+
+### Dependencies
+
+* bump to latest versions ([3ca0690](https://github.com/h-enk/hyas-cli/commit/3ca06909d2bb9df94f310752f93974755bdba74b))
+* bump versions to latest ([43e7d5b](https://github.com/h-enk/hyas-cli/commit/43e7d5b11d9f61c5e9fe48e45f741dcd3fff7792))
+
 ## [0.3.2] - 2020-10-14
 
 ### Changed
