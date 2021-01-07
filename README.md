@@ -29,7 +29,7 @@ npx @hyas/cli <command> [options]
 Create a new Hyas project:
 
 ```bash
-hyas create [dir]
+hyas create [dir] [theme]
 ```
 
 ### Start
