@@ -31,7 +31,7 @@
     "test": "eslint bin/ lib/commands/"
   },
   "devDependencies": {
-    "eslint": "^7.17",
+    "eslint": "^7.18",
     "standard-version": "^9.1"
   },
   "dependencies": {
