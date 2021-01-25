@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.7](https://github.com/h-enk/hyas-cli/compare/v0.3.6...v0.3.7) (2021-01-25)
+
+
+### Features
+
+* add check command ([b025bfd](https://github.com/h-enk/hyas-cli/commit/b025bfd3c241b282c98554b2ad244bcb949b5463))
+
+
+### Dependencies
+
+* bump eslint to latest version ([63ff2c0](https://github.com/h-enk/hyas-cli/commit/63ff2c0861bc05e87e0ab9aa5178f01ef481e5cb))
+
 ### [0.3.6](https://github.com/h-enk/hyas-cli/compare/v0.3.5...v0.3.6) (2021-01-07)
 
 
