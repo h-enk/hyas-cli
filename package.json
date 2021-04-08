@@ -1,7 +1,7 @@
 {
   "name": "@hyas/cli",
   "description": "Work seamlessly with Hyas from the command line.",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "main": "bin/index.js",
   "bin": {
     "hyas": "./bin/index.js"
