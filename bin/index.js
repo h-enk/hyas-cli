@@ -1,34 +1,38 @@
 #!/usr/bin/env node
-const shell = require('shelljs')
-const chalk = require('chalk')
+// const shell = require('shelljs')
+// const chalk = require('chalk')
 
+// Source: https://github.com/netlify/cli/blob/main/src/index.js
 const updateNotifier = require('update-notifier')
 const pkg = require('../package.json')
-const notifier = updateNotifier({
-  pkg,
-  // updateCheckInterval: 0,
-  // updateCheckInterval: 1000 * 60 * 60 * 24 * 7, // 1 week
-  updateCheckInterval: 1000 * 60 * 60 * 24, // 1 day
-  shouldNotifyInNpmScript: true,
-});
+// const UPDATE_CHECK_INTERVAL = 1000 * 60 * 60 * 24, // 1 day
+const UPDATE_CHECK_INTERVAL = 432e5 // 12 hours
+// const UPDATE_CHECK_INTERVAL = 0 // immediately
 
-if (notifier.update) {
-  const withYarn = shell.which('yarn')
-  const margin = chalk.bgGreen(' ')
-  const command = withYarn ? `yarn global add ${pkg.name}` : `npm i -g ${pkg.name}`
-  console.log()
-  console.log(`${margin} Update available: ${chalk.bold(notifier.update.latest)}`)
-  console.log(`${margin} Run ${chalk.cyan(command)} to update`)
-  console.log()
+try {
+  updateNotifier({
+    pkg,
+    updateCheckInterval: UPDATE_CHECK_INTERVAL,
+  }).notify({
+    isGlobal: true,
+  })
+} catch (error) {
+  console.log('Error checking for updates:')
+  console.log(error)
 }
 
-require('yargs')
-  .usage('Usage: hyas <command> [options]')
-  .commandDir('../lib/commands')
+require('yargs/yargs')(process.argv.slice(2))
   .scriptName('')
+  .usage(pkg.description + '\n\nUsage: hyas <command> [options]')
+  .commandDir('../lib/commands')
   .showHelpOnFail(true)
-  // .version('version', 'Show version number', '@hyas/cli v0.3.2')
-  .alias('version', 'v')
-  .alias('help', 'h')
-  .epilogue('Run ' + chalk.cyan('hyas <command> --help') + ' for detailed usage of given command.')
+  .demandCommand(1, '')
+  .strictCommands()
+  .version('version', 'Show ' + pkg.name + ' version', pkg.name + ' v' + pkg.version)
+  // .alias('version', 'v')
+  .describe('help', 'Show help for command')
+  // .alias('help', 'h')
+  // .alias('theme', 't')
+  // .alias('starter', 's')
+  .epilogue('Learn more:\n  Use \'hyas <command> --help\' for more information about a command.\n  Read the manual at https://cli.gethyas.com')
   .parse()

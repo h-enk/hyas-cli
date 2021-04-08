@@ -1,10 +1,10 @@
 {
   "name": "@hyas/cli",
-  "description": "Hyas command line tool",
+  "description": "Work seamlessly with Hyas from the command line.",
   "version": "0.3.7",
   "main": "bin/index.js",
   "bin": {
-    "hyas": "bin/index.js"
+    "hyas": "./bin/index.js"
   },
   "repository": "https://github.com/h-enk/hyas-cli",
   "homepage": "https://github.com/h-enk/hyas-cli#readme",
@@ -23,6 +23,7 @@
     "cli"
   ],
   "license": "MIT",
+  "preferGlobal": true,
   "publishConfig": {
     "access": "public"
   },
@@ -31,13 +32,13 @@
     "test": "eslint bin/ lib/commands/"
   },
   "devDependencies": {
-    "eslint": "^7.18",
-    "standard-version": "^9.1"
+    "eslint": "^7.23",
+    "standard-version": "^9.2"
   },
   "dependencies": {
     "chalk": "^4.1",
     "shelljs": "^0.8",
-    "update-notifier": "^5.0",
+    "update-notifier": "^5.1",
     "yargs": "^16.2"
   },
   "engines": {
