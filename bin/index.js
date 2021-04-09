@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-// const shell = require('shelljs')
-// const chalk = require('chalk')
 
 // Source: https://github.com/netlify/cli/blob/main/src/index.js
 const updateNotifier = require('update-notifier')
@@ -15,6 +13,7 @@ try {
     updateCheckInterval: UPDATE_CHECK_INTERVAL,
   }).notify({
     isGlobal: true,
+    boxenOptions: { padding: 1, margin: 1, align: 'right', borderColor: 'yellow', borderStyle: 'round' },
   })
 } catch (error) {
   console.log('Error checking for updates:')
@@ -29,10 +28,9 @@ require('yargs/yargs')(process.argv.slice(2))
   .demandCommand(1, '')
   .strictCommands()
   .version('version', 'Show ' + pkg.name + ' version', pkg.name + ' v' + pkg.version)
-  // .alias('version', 'v')
+  .alias('version', 'v')
   .describe('help', 'Show help for command')
-  // .alias('help', 'h')
-  // .alias('theme', 't')
-  // .alias('starter', 's')
-  .epilogue('Learn more:\n  Use \'hyas <command> --help\' for more information about a command.\n  Read the manual at https://cli.gethyas.com')
+  .alias('help', 'h')
+  .alias('starter', 's')
+  .epilogue('Learn more:\n  Use \'hyas <command> --help\' for more information about a command.\n  Read the manual at https://gethyas.com/hyas-cli')
   .parse()
