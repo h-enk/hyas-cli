@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/h-enk/hyas-cli/compare/v0.3.9...v0.4.0) (2021-04-13)
+
+
+### Features
+
+* added lint + add commands ([c56da51](https://github.com/h-enk/hyas-cli/commit/c56da51bc1fb6db8203f7378ac5774007ab2c630))
+
 ### [0.3.9](https://github.com/h-enk/hyas-cli/compare/v0.3.8...v0.3.9) (2021-04-09)
 
 
