@@ -4,8 +4,6 @@
 
 Hyas command line tool.
 
-![Hyas CLI](https://raw.githubusercontent.com/h-enk/hyas-cli/master/images/hyas-cli.png)
-
 ## Installation
 
 Install the [Hyas CLI](https://www.npmjs.com/package/@hyas/cli) globally:
@@ -35,14 +33,15 @@ hyas <command> [options]
 Create a new Hyas project:
 
 ```bash
-hyas create <dir> [theme]
+hyas create [dir]
 ```
 
-| Arguments | Description |
-| - | - |
-| `dir` | Name of the directory to create the project in |
-| `theme` | Name of the Hyas theme to use |
-| `-s, --starter` | Use starter theme (default: use child theme) |
+| Arguments | Description | Default |
+| - | - | - |
+| `dir` | Directory to create the project in | `my-hyas-site`|
+| `-c, --child` | Use child theme | Use starter theme |
+| `-t, --theme` | Hyas theme to use (e.g. `--theme=doks`)| No Hyas theme|
+
 
 ### Start
 
