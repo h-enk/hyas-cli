@@ -28,18 +28,19 @@
     "access": "public"
   },
   "scripts": {
-    "release": "standard-version",
-    "test": "eslint bin/ lib/commands/"
+    "clean:install": "shx rm -rf package-lock.json node_modules ",
+    "test": "eslint bin/ lib/commands/",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "eslint": "^7.24",
-    "standard-version": "^9.2"
+    "auto-changelog": "^2.3.0",
+    "eslint": "^7.29"
   },
   "dependencies": {
     "chalk": "^4.1",
     "shelljs": "^0.8",
     "update-notifier": "^5.1",
-    "yargs": "^16.2"
+    "yargs": "^17.0"
   },
   "engines": {
     "node": ">=14"
