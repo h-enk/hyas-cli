@@ -1,7 +1,7 @@
 {
   "name": "@hyas/cli",
   "description": "Hyas command line tool",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "main": "bin/index.js",
   "bin": {
     "hyas": "./bin/index.js"
@@ -33,14 +33,14 @@
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "auto-changelog": "^2.3.0",
-    "eslint": "^7.29"
+    "auto-changelog": "^2.3",
+    "eslint": "^7.32"
   },
   "dependencies": {
     "chalk": "^4.1",
     "shelljs": "^0.8",
     "update-notifier": "^5.1",
-    "yargs": "^17.0"
+    "yargs": "^17.1"
   },
   "engines": {
     "node": ">=14"
