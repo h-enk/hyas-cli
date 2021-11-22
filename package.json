@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "auto-changelog": "^2.3",
-    "eslint": "^7.32"
+    "eslint": "^8.3"
   },
   "dependencies": {
     "chalk": "^4.1",
