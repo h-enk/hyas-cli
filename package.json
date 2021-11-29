@@ -37,7 +37,7 @@
     "eslint": "^7.32"
   },
   "dependencies": {
-    "chalk": "^4.1",
+    "chalk": "^5.0",
     "shelljs": "^0.8",
     "update-notifier": "^5.1",
     "yargs": "^17.1"
