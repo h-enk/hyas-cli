@@ -1,7 +1,7 @@
 {
   "name": "@hyas/cli",
   "description": "Hyas command line tool",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "main": "bin/index.js",
   "bin": {
     "hyas": "./bin/index.js"
@@ -37,7 +37,7 @@
     "eslint": "^8.6"
   },
   "dependencies": {
-    "chalk": "^5.0",
+    "chalk": "^4.1",
     "shelljs": "^0.8",
     "shx": "^0.3.3",
     "update-notifier": "^5.1",
