@@ -1,7 +1,7 @@
 {
   "name": "@hyas/cli",
   "description": "Hyas command line tool",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "main": "bin/index.js",
   "bin": {
     "hyas": "./bin/index.js"
@@ -34,15 +34,16 @@
   },
   "devDependencies": {
     "auto-changelog": "^2.3",
-    "eslint": "^7.32"
+    "eslint": "^8.6"
   },
   "dependencies": {
-    "chalk": "^4.1",
+    "chalk": "^5.0",
     "shelljs": "^0.8",
+    "shx": "^0.3.3",
     "update-notifier": "^5.1",
-    "yargs": "^17.1"
+    "yargs": "^17.3"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   }
 }
